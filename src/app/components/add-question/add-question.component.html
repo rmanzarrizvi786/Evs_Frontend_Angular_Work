@@ -1,0 +1,18 @@
+<div class="card">
+  <div class="card-header">
+    Add New ToDoList
+  </div>
+  <div class="card-block">
+    <form (submit)="addQuestion()">
+      <div class="form-group">
+        <label for="text">Add a new task</label>
+        <input type="text" class="form-control" [(ngModel)]="text" name="text">
+      </div>
+      <div class="form-group">
+        <label for="text">Task Name</label>
+        <input type="text" class="form-control" [(ngModel)]="answer" name="answer">
+      </div>
+      <input type="submit" class="btn btn-primary" value="Submit">
+    </form>
+  </div>
+</div>
